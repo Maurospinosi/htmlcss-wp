@@ -34,11 +34,14 @@ h1{
   padding-left: 10px;
   padding-right: 10px;
 }
-h3{
+#title{
   margin-top: 20px;
   font-size: 20px;
 }
-.menu, li{
+a{
+  text-decoration: none;
+}
+.menu, #elenco-menu{
   display: inline-block;
   list-style: none;
 }
@@ -49,10 +52,9 @@ h3{
   background-color: #707070;
   margin-bottom: 20px;
 }
-a{
+#topbar{
   font-family: 'Noto Sans JP', sans-serif;
   color: white;
-  text-decoration: none;
   font-size: 15px;
   margin-left: 40px;
 }
@@ -65,9 +67,30 @@ main::after{
   float: left;
   background-color: white;
   border-radius: 3%;
-  height: 600px;
   width: 23%;
   margin-right: 3%
+}
+.little-title{
+  margin: auto;
+}
+.fas{
+  color: orange;
+  font-size: 30px;
+}
+
+#organic{
+ display: inline-block;
+}
+#themes{
+  position: relative;
+  left: 30px;
+}
+#list-little-menu{
+  list-style: none;
+  margin-bottom: 25px;
+}
+#link-little-menu{
+  color: #00a000;
 }
 .right-top{
   float: left;
