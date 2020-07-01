@@ -140,10 +140,10 @@ footer{
   margin-bottom: 10px;
   position: relative;
 }
-.final-text{
-text-align: center;
-color: lightgrey;
-}
+  .final-text{
+  text-align: center;
+  color: lightgrey;
+  }
 .fab{
   color: lightgrey;
   font-size: 50px;
@@ -155,4 +155,4 @@ color: lightgrey;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-}
+ }
