@@ -133,8 +133,26 @@ section{
 
 
 footer{
-  background-color: yellow;
+  background-color: white;
+  border-radius: 3%;
   height: 150px;
   margin-top: 20px;
   margin-bottom: 10px;
+  position: relative;
+}
+.final-text{
+text-align: center;
+color: lightgrey;
+}
+.fab{
+  color: lightgrey;
+  font-size: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+.logo{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
