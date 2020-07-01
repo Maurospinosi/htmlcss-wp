@@ -63,7 +63,8 @@ main::after{
 }
 .left{
   float: left;
-  background-color: #7cfc00;
+  background-color: white;
+  border-radius: 3%;
   height: 600px;
   width: 23%;
   margin-right: 3%
